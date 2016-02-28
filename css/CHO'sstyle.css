@@ -1,0 +1,155 @@
+
+body{
+	color: #0C4242;
+	font-size: 90%
+	font-family: Arial, 'sans-serif'; 
+	font-family: Arial, 'Lucida sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+body{
+	background-image:url(../img/bg.jpg);
+	background-color:#FFA1A1;
+	background-size: 90%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.body{
+	margin: 0 auto;
+	width: 75%;
+	clear: both;
+}
+
+.mainHeader img{
+	width:50%;
+	height:auto;
+	margin: 2% 25%;
+}
+
+.mainHeader nav{
+	
+	background-color: #6E1414;
+	height: 40 px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 5%;
+}
+
+.mainHeader nav ul{
+	list-style: none;
+	margin: 0 auto;
+	align: center;
+}
+
+.mainHeader nav ul li{
+	display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+.mainHeader nav a:hover, mainHeader nav a:active,
+.maiinHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: #CF5C3F;
+	text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainContent{
+	width: 75%;
+	float: left;
+	line-height:25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	overflow: hidden;
+}
+
+.content{
+	width: 80%;
+	float: left;
+}
+
+.topcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 2% 3%;
+	margin-top: 2%;
+}
+
+.bottomcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 2% 3%;
+	margin-top: 2%;
+}
+
+.top-sidebar {
+	width: 16%;
+	float: left;
+	background-color:#FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-top: 1%;
+	padding: 2% 3%;
+}
+
+.middle-sidebar {
+	width: 16%;
+	float: left;
+	background-color:#FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-top: 1%;
+	padding: 2% 3%;
+}
+
+.bottom-sidebar {
+	width: 16%;
+	float: left;
+	background-color:#FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-top: 1%;
+	padding: 2% 3%;
+}
+
+.mainFooter {
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #6E1414;
+	margin: 2% 0;
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 2% auto;
+	color: #FFF;
+}
